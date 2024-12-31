@@ -1,0 +1,114 @@
+.accordion_card {
+  border: 1px solid rgb(204, 204, 204);
+  margin: 1rem 0;
+  border-radius: 10px;
+  background-color: #FCFCFC !important;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    text-align: center;
+  }
+
+  .fs-5 {
+    text-align: center;
+  }
+
+  /* .header-carousel {
+    margin-bottom: 1100px;
+  } */
+
+  .text {
+    margin: 0 !important;
+    margin-top: 20px !important;
+    text-align: left;
+  }
+
+  .heading {
+    font-size: xx-large !important;
+  }
+
+  .card-center {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .width {
+    max-width: 90% !important;
+  }
+
+  .margin1 {
+    margin-bottom: 25px !important;
+  }
+
+  .margin {
+    margin-bottom: -20px !important;
+  }
+
+  .margintop {
+    margin-top: 40px !important;
+  }
+
+  .carrier {
+    font-size: 1.5rem !important;
+  }
+
+  .buttons {
+    margin: 5px !important;
+  }
+
+  .accordian {
+    max-width: 100% !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .ship_hr {
+    margin: 0 auto !important;
+    margin-bottom: 10px !important;
+  }
+
+  .ship_btn {
+    width: 40% !important;
+  }
+
+  .heading {
+    font-size: xx-large !important;
+  }
+
+  .buttons {
+    max-width: 50%;
+  }
+
+  .card-img {
+    width: 200px !important;
+    height: auto;
+  }
+
+  .text {
+    margin-top: 20px !important;
+    text-align: center;
+    order: 1;
+  }
+
+  .image {
+    order: 2;
+    width: 70% !important;
+    height: auto !important;
+
+  }
+
+  .margin1 {
+    margin-bottom: 25px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+  .hero-form {
+    width: 70% !important;
+    text-align: center !important;
+    margin: 0 auto !important;
+  }
+}
+

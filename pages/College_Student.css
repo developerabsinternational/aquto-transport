@@ -1,0 +1,160 @@
+.accordion_card {
+  border: 1px solid rgb(204, 204, 204);
+  margin: 1rem 0;
+  border-radius: 10px;
+  background-color: #fcfcfc !important;
+}
+
+.faq-heading {
+  font-size: 20px !important;
+  font-weight: 600 !important;
+}
+
+.section {
+  margin-bottom: -50px !important;
+}
+
+ul li::marker {
+  font-size: 2rem;
+  color: #007bff;
+}
+
+.gradient-bg {
+  background: linear-gradient(
+    90deg,
+    rgb(53, 143, 247) 45%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  margin-left: 50px;
+}
+
+.swiper-container {
+  padding: 20px 0;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .cards-width {
+    width: 80% !important;
+  }
+}
+
+@media (max-width: 568px) {
+  .header-carousel {
+    height: 90vh !important;
+  }
+
+  .h1 {
+    margin-top: -250px !important;
+  }
+
+  h1 {
+    font-size: 2.5rem !important;
+  }
+
+  .h2 {
+    font-size: 2rem !important;
+  }
+
+  .mobile-width {
+    width: 90% !important;
+  }
+
+  .w-75 {
+    width: 100% !important;
+  }
+
+  .content-column {
+    text-align: center;
+    padding-top: 15px;
+    order: 2 !important;
+  }
+
+  .image-column {
+    justify-content: flex-start !important;
+    text-align: left !important;
+    order: 1 !important;
+  }
+
+  .btn {
+    padding: 10px 60px !important;
+    width: auto !important;
+  }
+
+  .banner {
+    width: 80%;
+    justify-content: left !important;
+  }
+
+  .section-width {
+    width: 90% !important;
+    margin: 0 auto;
+  }
+
+  .btnlinks {
+    padding: 5px !important;
+    margin: 0 !important;
+    width: 100% !important;
+  }
+
+  .width {
+    max-width: 90% !important;
+  }
+
+  .contain .flex {
+    flex-direction: column;
+  }
+
+  .step {
+    margin: 20px 0;
+  }
+
+  .step2 {
+    margin-left: 100px !important;
+  }
+
+  .faq-heading {
+    font-size: 14px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .header-carousel {
+    height: 90vh !important;
+  }
+
+  .h1 {
+    margin-top: -300px !important;
+  }
+
+  h1 {
+    font-size: 3rem !important;
+  }
+
+  .h2 {
+    font-size: 2rem !important;
+  }
+
+  .line {
+    line-height: 1.5rem !important;
+    width: 100% !important;
+  }
+
+  .btn {
+    padding: 10px 60px !important;
+    width: auto !important;
+  }
+
+  .width {
+    max-width: 90% !important;
+  }
+
+  .icon_text {
+    margin-left: 10px !important;
+  }
+}

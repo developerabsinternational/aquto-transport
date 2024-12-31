@@ -1,0 +1,289 @@
+.accordion_card {
+  border: 1px solid rgb(204, 204, 204);
+  margin: 1rem 0;
+  border-radius: 10px;
+  background-color: #FCFCFC !important;
+}
+
+.step {
+  position: relative;
+}
+
+.step:not(:last-child) .line {
+  content: '';
+  position: absolute;
+  top: 25px;
+  left: 50%;
+  width: 50px;
+  height: 2px;
+  background-color: #007bff;
+  z-index: -1;
+}
+
+.image2 {
+  width: 100% !important;
+
+}
+
+
+@media (max-width: 768px) {
+
+  h2,
+  h1,
+  h5 {
+    font-size: 20px;
+    width: 100% !important;
+  }
+
+  .width {
+    max-width: 100% !important;
+  }
+
+}
+
+
+/* Mobile styles */
+@media (max-width: 568px) {
+
+  h1 {
+    text-align: center;
+  }
+
+  .fs-5 {
+    text-align: center;
+  }
+
+  .step {
+    margin: 0 10px !important;
+  }
+
+  .line {
+    width: 50px !important;
+    margin-left: 10px !important;
+  }
+
+  .line1 {
+    width: 50px !important;
+    margin-left: 30px !important;
+  }
+
+  .rounded-circle {
+    margin-left: 25px !important;
+  }
+
+  .accordian {
+    max-width: 100% !important;
+  }
+
+  .centerlize {
+    width: 100% !important;
+    margin: 0 auto !important;
+  }
+
+  .para {
+    width: 80% !important;
+    margin: 0 auto !important;
+    text-align: justify !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .ordr {
+    order: 1;
+  }
+  .ordrr {
+    order: 2;
+  }
+}
+
+
+/* Tablet styles */
+@media (min-width: 768px) and (max-width: 992px) {
+
+  .line {
+    width: 190px !important;
+    margin-left: 2px !important;
+  }
+
+  .line1 {
+    width: 180px !important;
+    margin-left: 10px !important;
+  }
+
+  .line2 {
+    margin-left: 10px !important;
+    width: 160px !important;
+  }
+
+  .center {
+    margin-left: -15px !important;
+  }
+
+  .icon_text {
+    width: 100% !important;
+    white-space: nowrap !important;
+  }
+
+  .center {
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  .text {
+    order: 1;
+  }
+
+  .image {
+    order: 2;
+  }
+
+  h1 {
+    text-align: center !important;
+  }
+
+  .fs-5 {
+    text-align: center;
+  }
+
+  .hero-form {
+    width: 70% !important;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .image2 {
+    /* width: 100% !important; */
+    height: 20%;
+    margin-bottom: 20px !important;
+  }
+
+
+  .h4 {
+    font-size: medium !important;
+  }
+
+}
+
+
+@media (max-width: 568px) {
+
+  .hero_section {
+    height: 90vh !important;
+  }
+
+  .hero_content {
+    max-width: 90%;
+  }
+
+  .text-md-start {
+    margin-left: 20px !important;
+  }
+
+  .hero_title {
+    font-size: 1.5rem !important;
+    font-weight: bold !important;
+  }
+
+  .hero_bg {
+    margin-top: -80px !important;
+  }
+
+  .hero_form {
+    max-width: 100% !important;
+  }
+
+  .image2 {
+    /* width: 100% !important; */
+    height: 20%;
+    margin-bottom: 20px !important;
+  }
+
+  .h4 {
+    font-size: small !important;
+  }
+
+  .pr-5 {
+    font-size: small !important;
+    padding: 5px !important;
+
+  }
+
+  .icon_text {
+    margin-left: 20px !important;
+  }
+
+
+  .line1 {
+    width: 90px !important;
+    margin-left: 10px !important;
+  }
+
+  .line2 {
+    margin-left: -20px !important;
+    width: 80px !important;
+  }
+
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .ship_hr {
+    margin: 0 auto !important;
+    margin-bottom: 10px !important;
+  }
+
+  .ship_btn {
+    width: 40% !important;
+  }
+
+  .hero_section {
+    height: 100vh !important;
+  }
+
+  .hero_content {
+    max-width: 80%;
+  }
+
+  .text-md-start {
+    margin-left: 80px !important;
+  }
+
+  .hero_title {
+    font-size: 2rem !important;
+    font-weight: bold !important;
+  }
+}
+
+input::placeholder {
+  font-size: 13px;
+}
+
+#cards {
+  margin-top: -50px !important;
+  margin-bottom: -50px !important;
+}
+
+.gradient-bg {
+  background: linear-gradient(
+    90deg,
+    rgb(53, 143, 247) 45%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  margin-left: 50px;
+}
+
+.swiper-container {
+  padding: 20px 0;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .cards-width {
+    width: 80% !important;
+  }
+}

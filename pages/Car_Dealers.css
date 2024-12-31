@@ -1,0 +1,127 @@
+
+
+    .accordion_card {
+    border: 1px solid rgb(204, 204, 204);
+    margin: 1rem 0;
+    border-radius: 10px;
+    background-color: #FCFCFC !important;
+  }
+
+  .faq-heading {
+    font-size: 20px !important;
+    font-weight: 600 !important;
+  }
+  
+ 
+#cards {
+  margin-top: -50px !important;
+  margin-bottom: -50px !important;
+}
+
+.gradient-bg {
+  background: linear-gradient(90deg, rgb(53, 143, 247) 45%, rgba(255, 255, 255, 1) 100%);
+  margin-left: 50px;
+}
+
+  
+  .swiper-container {
+    padding: 20px 0;
+  }
+  
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  @media (max-width: 568px) {
+
+    h1 {
+      text-align: center !important;
+    }
+  
+    .fs-5 {
+      text-align: center !important;
+      max-width: 80% !important;
+      margin: 0 auto !important;
+    }
+
+    .card2,
+    .card3,
+    .card4 {
+      display: none !important;
+    }
+  
+    .faq-heading {
+      font-size: 14px !important;
+    }
+
+    .center {
+        width: 90% !important;
+        margin: 0 auto !important;
+      }
+
+      .sec {
+        margin-bottom: -60px !important;
+      }
+  
+      .card-width {
+        width: 90% !important;
+        margin: 0 auto !important;
+      }
+
+      .orderr {
+        order: 1;
+        margin-top: -40px !important;
+      }
+  
+      .order {
+        order: 2;
+      }
+
+      .mob-card {
+        margin-bottom: 80px !important;
+      }
+
+      .buttun {
+        width: 50% !important;
+      }
+
+      .mobil {
+        margin-left: 0 !important;
+        max-width: 100% !important;
+      }
+   
+  }
+  
+  @media (min-width: 768px) and (max-width: 992px) {
+  
+    .card3,
+    .card4 {
+      display: none !important;
+    }
+  
+  
+    h1 {
+      text-align: center !important;
+    }
+  
+    .fs-5 {
+      text-align: center !important;
+      max-width: 80% !important;
+      margin: 0 auto !important;
+    }
+  
+    .hero-form {
+      width: 70% !important;
+      text-align: center;
+      margin: 0 auto;
+    }
+
+    .tab {
+      margin-bottom: 100px !important;
+    }
+  
+  }
+ 

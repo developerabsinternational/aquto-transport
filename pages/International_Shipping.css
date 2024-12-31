@@ -1,0 +1,155 @@
+@media (max-width: 568px) {
+  h1 {
+    margin-top: -200px !important;
+    font-size: 2em !important;
+    margin-left: 10px !important;
+  }
+
+  .fs-5 {
+   font-size: 16px !important;
+   margin-left: 10px !important;
+  width: 80% !important;
+  }
+
+  .hero-form {
+    margin-top: -10px !important;
+  }
+}
+
+section,
+.section {
+  padding: 5px 0 !important;
+}
+
+.lineheight {
+  line-height: 2rem !important;
+}
+
+.gradient-bg {
+  background: linear-gradient(90deg, rgb(53, 143, 247) 45%, rgba(255, 255, 255, 1) 100%);
+  margin-left: 50px;
+}
+
+.accordion_card {
+  border: 1px solid rgb(204, 204, 204);
+  margin: 1rem 0;
+  border-radius: 10px;
+  background-color: #FCFCFC !important;
+}
+
+.faq-heading {
+  font-size: 20px !important;
+  font-weight: 600 !important;
+}
+
+li::marker {
+  font-size: 2em;
+  color: #0D6EFD;
+}
+
+.gradient-bg {
+  background: linear-gradient(90deg, rgb(53, 143, 247) 45%, rgba(255, 255, 255, 1) 100%);
+  margin-left: 50px;
+}
+
+.swiper-container {
+  padding: 20px 0;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .cards-width {
+    width: 80% !important;
+  }
+
+  .orderr {
+    order: 2;
+  }
+
+  .ordeer {
+    order: 1;
+  }
+
+  .butoon {
+    width: 50% !important;
+  }
+ 
+}
+
+@media (max-width: 568px) {
+
+  .width {
+    width: 90%;
+  }
+
+  h2 {
+    width: 100% !important;
+  }
+
+  .accordian {
+    max-width: 100% !important;
+  }
+
+  .quote-btn {
+    font-size: 1rem !important;
+    width: 100% !important;
+    padding: 10px !important;
+  }
+
+  .quote-width {
+    max-width: 100% !important;
+  }
+
+  .carrier {
+    width: 90% !important;
+  }
+
+  .margin-b {
+    margin-bottom: 20px !important;
+  }
+
+  .card2,
+  .card3,
+  .card4 {
+    display: none !important;
+  }
+
+  .faq-heading {
+    font-size: 14px !important;
+  }
+
+  .butoon {
+    width: 70% !important;
+    margin-bottom: 20px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+  .card3,
+  .card4 {
+    display: none !important;
+  }
+
+
+  h1 {
+    text-align: center !important;
+  }
+
+  .fs-5 {
+    text-align: center;
+  }
+
+  .hero-form {
+    width: 70% !important;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+
+}

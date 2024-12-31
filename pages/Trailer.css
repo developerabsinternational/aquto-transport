@@ -1,0 +1,167 @@
+  
+  .accordion_card {
+    border: 1px solid rgb(204, 204, 204);
+    margin: 1rem 0;
+    border-radius: 10px;
+    background-color: #FCFCFC !important;
+  }
+
+  .faq-heading {
+    font-size: 20px !important;
+    font-weight: 600 !important;
+  }
+  
+ 
+#cards {
+  margin-top: -50px !important;
+  margin-bottom: -50px !important;
+}
+
+.gradient-bg {
+  background: linear-gradient(90deg, rgb(53, 143, 247) 45%, rgba(255, 255, 255, 1) 100%);
+  margin-left: 50px;
+}
+
+  
+  .swiper-container {
+    padding: 20px 0;
+  }
+  
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  ul.text-muted {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  ul.text-muted li {
+    position: relative;
+    padding-left: 2rem; 
+  }
+  
+  ul.text-muted li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 8px;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: #0d6efd; 
+    border-radius: 50%;
+  }
+  
+  ul.text-muted li i {
+    display: none; 
+  }
+  
+  @media (max-width: 568px) {
+  
+    .card2,
+    .card3,
+    .card4 {
+      display: none !important;
+    }
+  
+    .faq-heading {
+      font-size: 14px !important;
+    }
+
+    .text-width {
+      max-width: 100% !important;
+      margin: 0 auto !important;
+    }
+
+    h1 {
+      text-align: center !important;
+    }
+  
+    .fs-5 {
+      text-align: center !important;
+      max-width: 80% !important;
+      margin: 0 auto !important;
+    }
+
+    .center {
+      width: 90% !important;
+      margin: 0 auto !important;
+    }
+
+    .card-width {
+      width: 90% !important;
+      margin: 0 auto !important;
+    }
+
+    .marginleft {
+      padding-top: 20px !important;
+      margin: 0 auto !important;
+      max-width: 90% !important;
+      
+    }
+
+    .hwidth {
+      margin-top: -20px !important;
+      max-width: 90% !important;
+
+    }
+
+    .widthh .muted {
+      max-width: 100% !important;
+      margin-left: 20px !important;
+    }
+  
+  }
+  
+  @media (min-width: 768px) and (max-width: 992px) {
+  
+    .card3,
+    .card4 {
+      display: none !important;
+    }
+  
+  
+    h1 {
+      text-align: center !important;
+    }
+  
+    .fs-5 {
+      text-align: center;
+    }
+  
+    .hero-form {
+      width: 70% !important;
+      text-align: center;
+      margin: 0 auto;
+    }
+  
+  }
+
+  @media (max-width: 768px) {
+    .cards {
+      width: 90% !important;
+    }
+
+    .widt {
+      width: 90% !important;
+    }
+
+    .marg {
+      margin-left: 0 !important;
+    }
+
+    .maxwidth {
+      max-width: 100% !important;
+    }
+
+    .mwidth {
+      max-width: 100% !important;
+    }
+
+    .mwidthh {
+      max-width: 80% !important;
+    }
+  }
+  

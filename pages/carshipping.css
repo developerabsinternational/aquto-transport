@@ -1,0 +1,342 @@
+.section-title {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.icon-container {
+  position: relative;
+}
+
+.icon {
+  width: 100px;
+  height: auto;
+  position: absolute;
+}
+
+.icon:nth-child(1) {
+  left: 0;
+  top: 0;
+}
+
+.icon:nth-child(2) {
+  left: 20px;
+  top: 0;
+}
+
+.icon:nth-child(3) {
+  left: 40px;
+  top: 0;
+}
+
+.accordion_card {
+  border: 1px solid rgb(204, 204, 204);
+  margin: 1rem 0;
+  border-radius: 10px;
+  background-color: #FCFCFC !important;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  background-size: cover;
+}
+
+table tbody td,
+table tbody th {
+  border: 2px solid #ddd;
+}
+
+.gradient-bg {
+  background: linear-gradient(90deg, rgb(53, 143, 247) 45%, rgba(255, 255, 255, 1) 100%);
+  margin-left: 50px;
+}
+
+.faq-heading {
+  font-size: 20px !important;
+  font-weight: 600 !important;
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .text-center {
+    max-width: 100%;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .mob_cards {
+    margin: 0 30px;
+  }
+
+  .margin {
+    margin-top: -30px !important;
+  }
+
+}
+
+@media (max-width: 568px) {
+  table {
+    width: 80%;
+    font-size: 0.6rem;
+  }
+
+  th,
+  td {
+    padding: 0.4rem;
+  }
+
+  .card2,
+  .card3,
+  .card4 {
+    display: none !important;
+  }
+
+  .faq-heading {
+    font-size: 14px !important;
+  }
+
+  .h3 {
+    font-size: 18px !important;
+  }
+
+  .h4 {
+    font-size: 17px !important;
+  }
+  
+  .sec-height {
+    width: 90% !important;
+    margin: 0 auto !important;
+  }
+
+  .accordion {
+    max-width: 90% !important;
+  }
+
+  .accordian {
+    max-width: 90% !important;
+  }
+
+  .larger {
+    font-size: medium !important;
+  }
+
+  .maxwidth {
+    max-width: 90% !important;
+  }
+
+  .hide-on-mobile {
+    display: none;
+  }
+
+  .oder {
+    order: 1;
+  }
+
+  .order {
+    order: 2;
+  }
+
+  .pragraph {
+    font-size: 14px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .background-image {
+    background-image: url('./assets/Car shipping img/Container.png');
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .mobile-width {
+    max-width: 90% !important;
+  }
+
+  .img-mobile {
+    margin-bottom: 10px;
+  }
+
+  .font-weight-bold {
+    font-size: 1.2rem;
+  }
+
+  .container {
+    padding: 15px;
+  }
+
+  .icon-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .icon {
+    margin-bottom: 10px;
+  }
+
+  small {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  .btn {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  h5 {
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  .text-center {
+    width: 100%;
+  }
+
+  .width {
+    max-width: 90% !important;
+  }
+
+  .width-testmonial {
+    max-width: 100% !important;
+  }
+
+  .font {
+    font-size: medium;
+  }
+
+  .select {
+    margin-left: 20%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  /* .mobile-width {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mobile-width .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mobile-width .col-md-6 {
+    text-align: center;
+    margin-bottom: 20px;
+    max-width: 90% !important;
+  } */
+
+  .icon-container {
+    margin-top: 20px;
+  }
+
+  .width {
+    max-width: 90% !important;
+  }
+
+  .card3,
+  .card4 {
+    display: none !important;
+  }
+
+  h1 {
+    text-align: center !important;
+  }
+
+  .fs-5 {
+    text-align: center;
+  }
+
+  .hero-form {
+    width: 70% !important;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .mobile-width {
+    max-width: 90% !important;
+    width: 90% !important;
+    margin: 0 auto !important;
+  }
+
+  .sec-height {
+    max-width: 90% !important;
+    margin: 0 auto !important;
+  }
+
+  .container-row {
+    flex-direction: column;
+    width: 100% !important; 
+  }
+
+  .box {
+    margin-bottom: 20px; 
+    width: 100% !important;
+  }
+
+  .text2 {
+    text-align: center !important;
+  }
+
+  .oder {
+    order: 1;
+  }
+
+  .order {
+    order: 2;
+  }
+
+  .ship_hr {
+    margin: 0 auto !important;
+  }
+}
+
+section,
+.section {
+  padding: 5px 0 !important;
+}
+
+.gradient-bg {
+  background: linear-gradient(
+    90deg,
+    rgb(53, 143, 247) 45%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  margin-left: 50px;
+}
+
+.swiper-container {
+  padding: 20px 0;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .cards-width {
+    width: 80% !important;
+  }
+}

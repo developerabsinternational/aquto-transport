@@ -1,0 +1,210 @@
+@media (max-width: 568px) {
+  .header-lawn {
+    height: 120vh !important;
+  }
+
+  h1 {
+    margin-top: -150px !important;
+    text-align: center !important;
+  }
+
+  .calcu {
+   margin-top: -10px !important;
+  }
+}
+
+
+
+table tbody td,
+table tbody th {
+  border: 2px solid #ddd;
+}
+  
+  .accordion_card {
+    border: 1px solid rgb(204, 204, 204);
+    margin: 1rem 0;
+    border-radius: 10px;
+    background-color: #FCFCFC !important;
+  }
+
+  .faq-heading {
+    font-size: 20px !important;
+    font-weight: 600 !important;
+  }
+  
+  
+#cards {
+    margin-top: -50px !important;
+    margin-bottom: -50px !important;
+  }
+  
+  .gradient-bg {
+    background: linear-gradient(90deg, rgb(53, 143, 247) 45%, rgba(255, 255, 255, 1) 100%);
+    margin-left: 50px;
+  }  
+  
+  .swiper-container {
+    padding: 20px 0;
+  }
+  
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @media (max-width: 568px) {
+  
+    .card2,
+    .card3,
+    .card4 {
+      display: none !important;
+    }
+  
+    .faq-heading {
+      font-size: 14px !important;
+    }
+
+    table {
+      width: 130% !important;
+      font-size: 0.6rem;
+    }
+
+    th,
+    td {
+      padding: 0.4rem !important;
+    }
+
+    .no-scroll-table {
+      table-layout: fixed !important; 
+      width: 100% !important;
+      font-size: 12px !important;
+  }
+
+  .no-scroll-table th,
+  .no-scroll-table td {
+      white-space: normal !important; 
+      overflow: hidden !important; 
+      text-overflow: ellipsis !important; 
+      padding: 4px !important; 
+  }
+
+  .no-scroll-table thead th {
+      font-size: 10px !important; 
+  }
+
+  .card {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .card-body {
+    text-align: center;
+  }
+
+    .ordr {
+      order: 1;
+      width: 90% !important;
+      margin: 0 auto !important;
+    }
+
+    .ordrr {
+      order: 2;
+      width: 90% !important;
+      margin: 0 auto !important;
+    }
+
+    .button {
+      text-align: center !important;
+    }
+  
+    .width {
+      width: 90% !important;
+      margin: 0 auto !important;
+      text-align: justify !important;
+    }
+
+    .card1 {
+      width: 100% !important;
+    }
+
+    .banner {
+      font-size: 1.4rem !important;
+    }
+
+    .margin {
+      margin-top: -20px !important;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 992px) {
+  
+    .card3,
+    .card4 {
+      display: none !important;
+    }
+  
+    .header-lawn {
+      height: 150vh !important;
+    }
+  
+    h1 {
+      position: relative; 
+      margin-top: -130px !important; 
+      margin-left: auto; 
+      margin-right: auto; 
+      text-align: center !important; 
+      width: 70% !important; 
+    }
+    
+    .fs-5 {
+      text-align: center;
+    }
+  
+    .hero-form {
+      width: 70% !important;
+      text-align: center;
+      margin: 0 auto;
+    }
+
+    .ordr {
+      order: 1;
+      width: 90% !important;
+      margin: 0 auto !important;
+    }
+
+    .ordrr {
+      order: 2;
+      width: 90% !important;
+      margin: 0 auto !important;
+    }
+
+    
+    .button {
+      text-align: center !important;
+    }
+  
+    .width {
+      width: 90% !important;
+      margin: 0 auto !important;
+      text-align: justify !important;
+    }
+
+    .row1 .col1 {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+
+    .box1, .box2 {
+      width: 100%;
+      text-align: center; 
+    }
+  
+    .box1 {
+      margin-bottom: 1rem; 
+    }
+  
+    .banner {
+      font-size: 1.6rem !important;
+    }
+  
+  }

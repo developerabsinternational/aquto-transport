@@ -1,0 +1,86 @@
+#cards {
+    margin-top: -50px !important;
+    margin-bottom: -50px !important;
+}
+
+.gradient-bg {
+    background: linear-gradient(90deg, rgb(53, 143, 247) 45%, rgba(255, 255, 255, 1) 100%);
+    margin-left: 50px;
+}
+
+.swiper-container {
+    padding: 20px 0;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .cards-width {
+        width: 80% !important;
+    }
+
+    .text-heading {
+        font-size: 1.5rem !important;
+    }
+}
+
+@media (max-width: 568px) {
+    .header-carousel {
+        margin-top: -50px !important;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .width {
+        max-width: 90% !important;
+        width: 90% !important;
+    }
+
+    .rounded-circle {
+        width: 250px !important;
+        height: 50px !important;
+    }
+
+    .circle {
+        width: 140px !important;
+        height: 50px !important;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .header-carousel {
+        margin-top: -50px !important;
+    }
+
+    .hero-form {
+        width: 70% !important;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .width {
+        max-width: 90% !important;
+        width: 90% !important;
+    }
+
+    .rounded-circle {
+        width: 105px !important;
+        height: 50px !important;
+    }
+
+    .circle {
+        width: 60px !important;
+        height: 50px !important;
+    }
+}

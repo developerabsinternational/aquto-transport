@@ -1,0 +1,164 @@
+
+ 
+    table tbody td,
+    table tbody th {
+      border: 2px solid #ddd;
+    }
+
+.accordion_card {
+    border: 1px solid rgb(204, 204, 204);
+    margin: 1rem 0;
+    border-radius: 10px;
+    background-color: #FCFCFC !important;
+  }
+
+  .faq-heading {
+    font-size: 20px !important;
+    font-weight: 600 !important;
+  }
+  
+ 
+#cards {
+  margin-top: -50px !important;
+  margin-bottom: -50px !important;
+}
+
+.gradient-bg {
+  background: linear-gradient(90deg, rgb(53, 143, 247) 45%, rgba(255, 255, 255, 1) 100%);
+  margin-left: 50px;
+}
+
+  
+  .swiper-container {
+    padding: 20px 0;
+  }
+  
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  @media (max-width: 568px) {
+
+    h1 {
+      text-align: center !important;
+    }
+  
+    .fs-5 {
+      text-align: center !important;
+      max-width: 80% !important;
+      margin: 0 auto !important;
+    }
+
+    .card2,
+    .card3,
+    .card4 {
+      display: none !important;
+    }
+  
+    .faq-heading {
+      font-size: 14px !important;
+    }
+
+    .center {
+        width: 90% !important;
+        margin: 0 auto !important;
+      }
+
+      .cen {
+        width: 90% !important;
+      }
+
+      .no-scroll-table {
+        table-layout: fixed !important; 
+        width: 100% !important;
+        font-size: 12px !important;
+    }
+  
+    .no-scroll-table th,
+    .no-scroll-table td {
+        white-space: normal !important; 
+        overflow: hidden !important; 
+        text-overflow: ellipsis !important; 
+        padding: 4px !important; 
+    }
+  
+    .no-scroll-table thead th {
+        font-size: 10px !important; 
+    }
+
+    .buttun {
+      width: 100% !important;
+      margin-bottom: 25px !important;
+    }
+
+    .margin {
+      margin-top: 50px !important;
+    }
+
+    .accordian {
+      max-width: 90% !important;
+    }
+
+    .heading {
+      margin-top: -10px !important;
+      font-size: large;
+    }
+
+    .buton {
+      margin-top: -30px !important;
+    } 
+   
+  }
+  
+  @media (min-width: 768px) and (max-width: 992px) {
+  
+    .card3,
+    .card4 {
+      display: none !important;
+    }
+  
+  
+    h1 {
+      text-align: center !important;
+    }
+  
+    .fs-5 {
+      text-align: center !important;
+      max-width: 80% !important;
+      margin: 0 auto !important;
+    }
+  
+    .hero-form {
+      width: 70% !important;
+      text-align: center;
+      margin: 0 auto;
+    }
+
+    
+    .box {
+      display: block; 
+      width: 100%; 
+      text-align: center !important;
+
+  }
+
+  .orderr {
+      order: 2; 
+  }
+
+  .order {
+      order: 1; 
+  }
+
+  .buttun {
+    margin-bottom: 20px !important;
+  }
+
+  
+
+  
+  }
+ 

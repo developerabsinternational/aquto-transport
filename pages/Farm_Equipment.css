@@ -1,0 +1,182 @@
+
+ 
+    table tbody td,
+    table tbody th {
+      border: 2px solid #ddd;
+    }
+
+.accordion_card {
+    border: 1px solid rgb(204, 204, 204);
+    margin: 1rem 0;
+    border-radius: 10px;
+    background-color: #FCFCFC !important;
+  }
+
+  .faq-heading {
+    font-size: 20px !important;
+    font-weight: 600 !important;
+  }
+  
+ 
+#cards {
+  margin-top: -50px !important;
+  margin-bottom: -50px !important;
+}
+
+.gradient-bg {
+  background: linear-gradient(90deg, rgb(53, 143, 247) 45%, rgba(255, 255, 255, 1) 100%);
+  margin-left: 50px;
+}
+
+  
+  .swiper-container {
+    padding: 20px 0;
+  }
+  
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  @media (max-width: 568px) {
+
+    h1 {
+      text-align: center !important;
+    }
+  
+    .fs-5 {
+      text-align: center !important;
+      max-width: 80% !important;
+      margin: 0 auto !important;
+    }
+
+    .card2,
+    .card3,
+    .card4 {
+      display: none !important;
+    }
+  
+    .faq-heading {
+      font-size: 14px !important;
+    }
+
+    .center {
+        width: 90% !important;
+        margin: 0 auto !important;
+      }
+
+      .cen {
+        width: 90% !important;
+      }
+
+      .buttun {
+        width: 80% !important;
+        
+      }
+
+      .butun {
+        text-align: center !important;
+        
+      }
+
+      .span {
+        width: 220px !important;
+      }
+
+      .no-scroll-table {
+        table-layout: fixed !important; 
+        width: 100% !important;
+        font-size: 12px !important;
+    }
+  
+    .no-scroll-table th,
+    .no-scroll-table td {
+        white-space: normal !important; 
+        overflow: hidden !important; 
+        text-overflow: ellipsis !important; 
+        padding: 4px !important; 
+    }
+  
+    .no-scroll-table thead th {
+        font-size: 10px !important; 
+    }
+
+    .order1{
+      order: 1;
+    }
+
+    .order2{
+      order: 2;
+    }
+
+    .margi {
+      margin-left: 0px !important;
+    }
+
+    .marg {
+      margin-top: -20px !important;
+    }
+
+    .align-left-mobile {
+      flex-direction: column !important; /* Stack items vertically */
+      text-align: left !important;
+    }
+    .align-left-mobile-item {
+      flex: 1 1 100%; /* Ensure each item takes full width */
+      justify-content: flex-start !important;
+      text-align: left !important;
+    }
+    .wid {
+      max-width: 100% !important; /* Ensure full width for mobile */
+    }
+
+    .widt {
+      margin-left: 30px !important;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 992px) {
+  
+    .card3,
+    .card4 {
+      display: none !important;
+    }
+  
+  
+    h1 {
+      text-align: center !important;
+    }
+  
+    .fs-5 {
+      text-align: center !important;
+      max-width: 80% !important;
+      margin: 0 auto !important;
+    }
+  
+    .hero-form {
+      width: 70% !important;
+      text-align: center;
+      margin: 0 auto;
+    }
+
+    
+    .box {
+      display: block; 
+      width: 100%; 
+      text-align: center !important;
+
+  }
+
+  .orderr {
+      order: 2; 
+  }
+
+  .order {
+      order: 1; 
+  }
+
+  
+  }
+ 
