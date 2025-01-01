@@ -1,0 +1,49 @@
+.header-lawn .header-item,
+.header-lawn .header-item img {
+    height: 600px  !important;
+}
+
+
+@media (max-width: 568px) {
+
+    h1 {
+      text-align: center !important;
+    }
+  
+    .fs-5 {
+      text-align: center !important;
+      max-width: 80% !important;
+      margin: 0 auto !important;
+    }
+
+    .header-lawn .header-item,
+    .header-lawn .header-item img {
+        height: 600px  !important;
+    }
+
+    .center {
+        width: 90% !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+    h1 {
+      text-align: center !important;
+    }
+  
+    .fs-5 {
+      text-align: center !important;
+      max-width: 80% !important;
+      margin: 0 auto !important;
+    }
+
+    .header-lawn .header-item,
+    .header-lawn .header-item img {
+        height: 600px  !important;
+    }
+
+    .center {
+        width: 90% !important;
+    }
+}

@@ -1,0 +1,25 @@
+#cards {
+    margin-top: -50px !important;
+    margin-bottom: -50px !important;
+  }
+  
+  .gradient-bg {
+    background: linear-gradient(90deg, rgb(53, 143, 247) 45%, rgba(255, 255, 255, 1) 100%);
+    margin-left: 50px;
+  }
+  
+    
+    .swiper-container {
+      padding: 20px 0;
+    }
+    
+    .swiper-slide {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .header-lawn .header-item,
+.header-lawn .header-item img {
+    height: 600px  !important;
+}
