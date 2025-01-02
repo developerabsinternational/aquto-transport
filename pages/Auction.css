@@ -136,6 +136,11 @@
   .spacing2 {
     margin-top: -120px !important;
   }
+
+  ul {
+    width: 90% !important;
+    margin: 0 auto !important;
+  }
   
   }
   

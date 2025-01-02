@@ -128,7 +128,7 @@
 
   .mob-img2 {
     width: 100% !important;
-    height: 100% !important;
+    height: 110% !important;
     margin-top: -50px !important;
     margin-left: -50px !important;
   }
@@ -228,8 +228,8 @@
 
       .mob-img2 {
         width: 80% !important;
-        height: 90% !important;
-        margin-top: -50px !important;
+        height: 100% !important;
+        margin-top: -70px !important;
       }
 
       .mob-img3 {
