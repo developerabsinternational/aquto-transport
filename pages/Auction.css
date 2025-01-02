@@ -125,8 +125,16 @@
     margin-top: -50px !important;
   }
 
-  .texst {
-    margin-top: -40px !important
+  .toptext {
+    margin-top: -10px !important
+  }
+
+  .spacing {
+    margin-top: -50px !important;
+  }
+
+  .spacing2 {
+    margin-top: -120px !important;
   }
   
   }
@@ -175,6 +183,14 @@
       .margin2 {
         margin: 60px auto -30px auto !important; 
       
+      }
+
+      .spacing {
+        margin-top: -50px !important;
+      }
+    
+      .spacing2 {
+        margin-top: -120px !important;
       }
   }
  
