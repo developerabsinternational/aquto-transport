@@ -117,6 +117,36 @@
     margin: 60px -50px 40px auto !important; 
   
   }
+
+  .mob-img {
+    width: 100% !important;
+    height: 90% !important;
+    margin-top: -40px !important;
+    margin-left: 50px !important;
+    margin-bottom: -20px !important;
+  }
+
+  .margintop {
+    margin-top: -30px !important;
+  }
+
+  .marginbottom {
+    margin-bottom: -30px !important;
+  }
+
+  .mob-img2 {
+    width: 100% !important;
+    margin-top: -100px !important;
+    margin-left: -50px !important;
+  }
+
+  .mt5 {
+    margin-bottom: -100px !important;
+  }
+  
+  .mt3 {
+    margin-top: -30px !important;
+  }
   
   }
   
@@ -135,6 +165,10 @@
       text-align: center !important;
       max-width: 80% !important;
       margin: 0 auto !important;
+    }
+
+    .mt {
+      margin-bottom: 20px !important;
     }
   
     .hero-form {
@@ -165,5 +199,22 @@
         margin: 60px auto -30px auto !important; 
       
       }
+
+      .mob-img {
+        width: 100% !important;
+        height: 90% !important;
+        margin-top: -40px !important;
+        margin-bottom: -20px !important;
+      }
+
+      .mob-img2 {
+        width: 100% !important;
+        margin-top: -100px !important;
+      }
+
+      .mt5 {
+        margin-bottom: -200px !important;
+      }
+    
   }
  
