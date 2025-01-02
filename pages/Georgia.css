@@ -75,6 +75,7 @@
         table-layout: fixed !important; 
         width: 100% !important;
         font-size: 12px !important;
+        margin-top: 10px !important;
     }
   
     .no-scroll-table th,
@@ -90,6 +91,39 @@
     }
 
     .accordian {
+      max-width: 90% !important;
+    }
+
+    .text-justify {
+      width: 100% !important;
+      max-width: 100% !important;
+      margin: 0 auto !important;
+    }
+
+    .textjustify {
+      max-width: 100% !important;
+      margin: 0 auto !important;
+      padding-bottom: 15px !important;
+    }
+
+    .texttop {
+      margin-top: -20px !important;
+    }
+
+    .order {
+      order: 1;
+    }
+
+    .orderr {
+      order: 2;
+    }
+
+    ul {
+      width: 90% !important;
+      margin: 0 auto !important;
+    }
+
+    .maxwidth {
       max-width: 90% !important;
     }
 
@@ -133,6 +167,34 @@
     .order {
         order: 1; 
     }
+
+    .maxwidth {
+      max-width: 100% !important;
+    }
+
+    .no-scroll-table {
+      margin-top: 10px !important;
+  }
+
+  .texttop {
+    margin-top: -20px !important;
+  }
+
+  .textjustify {
+    max-width: 100% !important;
+    margin: 0 auto !important;
+    padding-bottom: 15px !important;
+  }
+
+  .mt {
+    margin-bottom: 20px !important;
+  }
+
+  .text-justify {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 auto !important;
+  }
   
   }
  
