@@ -103,22 +103,22 @@
   <!-- Navbar & Hero End -->
 
   <!-- Carousel Start -->
-  <div class="shadow owl-carousel header-lawn bg-white">
+  <div class="owl-carousel header-lawn" style="background-color: #ECEFF1; height: 90vh !important;">
     <div class="header-carousel-item header-item">
       <div class="carousel-caption">
         <div class="container align-items-center py-4">
           <div class="row g-5 align-items-center">
             <div class="col-xl-7">
-              <div class="text-start">
+              <div class="text-start" style="margin-top: -100px !important;">
                 <h1 class="display-4 text-primary mb-4 fw-bold"><span class="text-dark">All State to State Auto Transport 
                   </span>Reviews and Rating</h1>
-                <p class="mb-4 fs-5 text-dark style="max-width: 90%;">All state to State Auto Transport has five-star ratings from different review forums. Read what our customers say about our 5-star car shipping services.
+                <p class="mb-4 fs-5 text-dark" style="max-width: 90%;">All state to State Auto Transport has five-star ratings from different review forums. Read what our customers say about our 5-star car shipping services.
                 </p>
                 <a href="#" class="btn btn-danger bg-danger text-white btn-sm btn-lg p-2" style="font-weight: bold;">Instant Quote Now</a>
               </div>
             </div>
             <div class="col-xl-5">
-              <img src="./assets/HarvesterShipping/Group 437.png" alt="Mobile Home Transport" class="img-fluid img-mobile" style="width: auto; height: 50% !important;">
+              <img src="./assets/HarvesterShipping/Group 437.png" alt="Mobile Home Transport" class="img-fluid img-mobile" style="width: auto; height: 50% !important; margin-bottom: 150px !important;">
             </div>
           </div>
         </div>
@@ -127,8 +127,8 @@
   </div>
   <!-- Carousel End -->
 
-   <!-- Cards Section -->
-   <section id="cards" class="container section cards-width sec">
+  <!-- Cards Section -->
+  <section id="cards" class="container section cards-width sec">
     <div class="swiper-container">
       <div class="swiper-wrapper">
         <!-- Card 1 -->
@@ -239,6 +239,56 @@
         </div>
       </div>
     </div>
+  </section>
+
+  <section class="py-5 text-center" style="background-color: #F5FAFF;">
+    <div class="container">
+      <h2 class="text-center fw-bold">All State-to-State Auto Transport Reviews & Rating</h2>
+      <p class="text-center text-muted">A+ accredited business rating score</p>
+
+      <div class="row align-items-center">
+        <!-- Left Side: Text with Icons -->
+        <div class="col-lg-8">
+          <div class="row">
+            <div class="col-md-6 col-sm-6 d-flex align-items-start my-3">
+              <img src="./assets/Reviews/computer_svgrepo.com.svg" alt="Calendar Icon" class="me-3" style="width: 30px; height: 30px;">
+              <p class="mb-0 fw-bold">Years in Business 17</p>
+            </div>
+            <div class="col-md-6 col-sm-6 d-flex align-items-start my-3">
+              <img src="./assets/Reviews/rating-rate_svgrepo.com.svg" alt="Calendar Icon" class="me-3" style="width: 30px; height: 30px;">
+              <p class="mb-0 fw-bold">Total Rating: 9</p>
+            </div>
+            <div class="col-md-6 col-sm-6 d-flex align-items-start my-3">
+              <img src="./assets/Reviews/Group 442.svg" alt="Calendar Icon" class="me-3" style="width: 30px; height: 30px;">
+              <p class="mb-0 fw-bold">Rating Platforms: 9</p>
+            </div>
+            <div class="col-md-6 col-sm-6 d-flex align-items-start my-3">
+              <img src="./assets/Reviews/Group 444.svg" alt="Calendar Icon" class="me-3" style="width: 30px; height: 30px;">
+              <p class="mb-0 fw-bold">Satisfied Customer</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Side: 4.8 Box -->
+        <div class="col-lg-4 text-center">
+          <div class="border rounded py-4 bg-white">
+            <h1 class="display-3 text-primary mb-0 font-weight-bold">4.8</h1>
+            <p class="text-muted mt-2">Aggregate rating score</p>
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-half text-warning"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="d-flex justify-content-center align-items-center">
+      <img src="./assets/Reviews/Frame 3052.webp" alt="Centered Image">
+    </div>    
   </section>
 
   <footer id="footer" class="d-none d-md-block text-lg-start text-dark" style="background-color: #ECEFF1">
@@ -356,6 +406,30 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
     integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
     crossorigin="anonymous"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const swiper = new Swiper('.swiper-container', {
+          loop: true,
+          slidesPerView: 4,
+          spaceBetween: 20,
+          autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+          },
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+          breakpoints: {
+            // Responsiveness for different screen sizes
+            320: { slidesPerView: 1, spaceBetween: 10 },
+            768: { slidesPerView: 2, spaceBetween: 15 },
+            1024: { slidesPerView: 3, spaceBetween: 20 },
+            1200: { slidesPerView: 4, spaceBetween: 20 },
+          },
+        });
+      });
+    </script>
 </body>
 
 </html>
