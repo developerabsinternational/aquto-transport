@@ -110,6 +110,16 @@
       text-align: justify !important;
     }
 
+    .step-img {
+      width: 50px !important;
+      height: 50px !important;
+    }
+  
+    .step-text {
+      font-size: large !important;
+      margin-top: 10px !important;
+    }
+
   }
   
   @media (min-width: 768px) and (max-width: 992px) {
