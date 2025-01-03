@@ -1,4 +1,4 @@
-@media (max-width: 568px) {
+/* @media (max-width: 568px) {
   .header-lawn {
     height: 120vh !important;
   }
@@ -11,7 +11,7 @@
   .calcu {
    margin-top: -10px !important;
   }
-}
+} */
 
 
 
@@ -54,6 +54,16 @@ table tbody th {
   }
   
   @media (max-width: 568px) {
+
+    h1 {
+      text-align: center !important;
+    }
+  
+    .fs-5 {
+      text-align: center !important;
+      max-width: 80% !important;
+      margin: 0 auto !important;
+    }
   
     .card2,
     .card3,
@@ -143,21 +153,18 @@ table tbody th {
       display: none !important;
     }
   
-    .header-lawn {
-      height: 150vh !important;
+    h1 {
+      text-align: center !important;
     }
   
-    h1 {
-      position: relative; 
-      margin-top: -130px !important; 
-      margin-left: auto; 
-      margin-right: auto; 
-      text-align: center !important; 
-      width: 70% !important; 
-    }
-    
     .fs-5 {
-      text-align: center;
+      text-align: center !important;
+      max-width: 80% !important;
+      margin: 0 auto !important;
+    }
+
+    .mt {
+      margin-bottom: 20px !important;
     }
   
     .hero-form {
