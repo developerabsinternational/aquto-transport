@@ -1,0 +1,41 @@
+@media (max-width: 568px) {
+    .width {
+        width: 90% !important;
+    }
+
+    .right {
+        margin-left: 90px !important;
+    }
+
+    .rounded-circle {
+        height: 70px !important;
+        width: 70px !important;
+        margin-left: 2px !important;
+    }
+
+    .batton {
+        margin-bottom: 10px !important;
+    }
+
+    .cen {
+        width: 90% !important;
+    }
+
+}
+    
+@media (min-width: 768px) and (max-width: 992px) {
+    .width {
+        width: 90% !important;
+    }
+
+    .right {
+        margin-left: 100px !important;
+    }
+
+    .rounded-circle {
+        height: 90px !important;
+        width: 90px !important;
+        margin-left: 0px !important;
+        margin-bottom: -40px !important;
+    }
+}
