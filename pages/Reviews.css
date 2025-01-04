@@ -38,6 +38,12 @@
     margin-top: -80px !important;
   }
 
+  .forum {
+  height: 350px !important;
+  width: 300px !important;
+  margin-left: 100px !important;
+  }
+
 @media (max-width: 568px) {
 
   h1 {
@@ -48,6 +54,10 @@
     text-align: center !important;
     margin-top: 10px !important;
     margin-bottom: -30px !important;
+  }
+
+  .buttun {
+    width: 50% !important;
   }
 
   .fs-5 {
@@ -77,11 +87,11 @@
 }
 
 .header-lawn {
-  height: 90vh !important;
+  height: 120vh !important;
 }
 
 .header-item {
-  margin-top: -160px !important;
+  margin-top: -100px !important;
 }
 
 .hero-form {
@@ -93,6 +103,12 @@
 .form {
   margin-top: 50px !important;
 }
+
+.forum {
+  height: 350px !important;
+  width: 300px !important;
+  margin: 0 auto !important;
+  }
 
 }
 
@@ -125,15 +141,21 @@
   }
 
   .header-lawn {
-    height: 100vh !important;
+    height: 120vh !important;
   }
   
   .header-item {
-    margin-top: -120px !important;
+    margin-top: -50px !important;
   }
 .form {
   margin-top: 50px !important;
 }
+
+.forum {
+  height: 350px !important;
+  width: 300px !important;
+  margin: 0 auto !important;
+  }
 
 .card3,
 .card4 {
