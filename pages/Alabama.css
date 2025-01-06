@@ -233,5 +233,41 @@
     .text-content {
       margin-bottom: 2rem;
     }
+
+    .textwidth {
+      max-width: 100% !important;
+    }
   }
   
+  @media (max-width: 768px) {
+    .cards-width {
+      width: 80% !important;
+    }
+  
+    .orderr {
+      order: 2;
+    }
+  
+    .ordeer {
+      order: 1;
+    }
+  
+    .butoon {
+      width: 50% !important;
+    }
+
+    .margin {
+      width: 90% !important;
+      margin: 0 auto !important;
+    }
+
+    .margan {
+      margin-top: -50px !important;
+    }
+
+    .margan2 {
+      margin-top: -50px !important;
+      margin-bottom: 50px !important;
+    }
+   
+  }
