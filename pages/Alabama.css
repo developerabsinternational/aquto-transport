@@ -266,8 +266,16 @@
     }
 
     .margan2 {
-      margin-top: -50px !important;
+      margin-top: 20px !important;
       margin-bottom: 50px !important;
     }
-   
+
+    .ord {
+      order: 2;
+    }
+
+    .orde {
+      order: 1;
+    }
+
   }
