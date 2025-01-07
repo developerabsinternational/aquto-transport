@@ -18,69 +18,60 @@
     align-items: center;
 }
 
-/* @media (max-width: 768px) {
-    .cards-width {
-        width: 80% !important;
-    }
+.accordion_card {
+    border: 1px solid rgb(204, 204, 204);
+    margin: 1rem 0;
+    border-radius: 10px;
+    background-color: #FCFCFC !important;
+  }
 
-    .text-heading {
-        font-size: 1.5rem !important;
-    }
-} */
+  .faq-heading {
+    font-size: 20px !important;
+    font-weight: 600 !important;
+  }
 
 @media (max-width: 568px) {
-    .header-carousel {
-        margin-top: -50px !important;
-    }
-
     h1 {
-        text-align: center;
-    }
-/* 
-    .width {
-        max-width: 90% !important;
-        width: 90% !important;
-    }
-
-    .rounded-circle {
-        width: 250px !important;
-        height: 50px !important;
-    }
-
-    .circle {
-        width: 140px !important;
-        height: 50px !important;
-    } */
+        text-align: center !important;
+      }
+    
+      .fs-5 {
+        text-align: center !important;
+        max-width: 80% !important;
+        margin: 0 auto !important;
+      }
+  
+      .card2,
+      .card3,
+      .card4 {
+        display: none !important;
+      }
+    
+      .faq-heading {
+        font-size: 14px !important;
+      }
 }
 
 
 @media (min-width: 768px) and (max-width: 992px) {
-    .header-carousel {
-        margin-top: -50px !important;
+    .card3,
+    .card4 {
+      display: none !important;
     }
-
-    .hero-form {
-        width: 70% !important;
-        text-align: center;
-        margin: 0 auto;
-    }
-
+  
     h1 {
-        text-align: center;
+      text-align: center !important;
     }
-
-    /* .width {
-        max-width: 90% !important;
-        width: 90% !important;
+  
+    .fs-5 {
+      text-align: center !important;
+      max-width: 80% !important;
+      margin: 0 auto !important;
     }
-
-    .rounded-circle {
-        width: 105px !important;
-        height: 50px !important;
+  
+    .hero-form {
+      width: 70% !important;
+      text-align: center;
+      margin: 0 auto;
     }
-
-    .circle {
-        width: 60px !important;
-        height: 50px !important;
-    } */
 }
