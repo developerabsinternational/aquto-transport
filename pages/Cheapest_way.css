@@ -30,6 +30,10 @@
     font-weight: 600 !important;
   }
 
+  .top {
+    margin-top: 50px !important;
+  }
+
 @media (max-width: 568px) {
     h1 {
         text-align: center !important;
@@ -48,7 +52,52 @@
       }
     
       .faq-heading {
-        font-size: 14px !important;
+        font-size: 16px !important;
+      }
+
+      .ord {
+        order: 2;
+      }
+
+      .orde {
+        order: 1;
+      }
+
+      .margin {
+        width: 90% !important;
+        margin: 0 auto !important;
+      }
+
+      .mob-img {
+        width: 100% !important;
+        margin-top: 0px !important ;
+        margin-bottom: 
+        30px !important;
+      }
+
+      .top {
+        margin-top: 30px !important;
+      }
+
+      .width {
+        width: 90% !important;
+      }
+
+      .icon {
+        width: 60px !important;
+        height: auto !important;
+      }
+
+      .truck-title {
+        padding: 10px !important;
+      }
+
+      .accordian {
+        max-width: 90% !important;
+      }
+
+      .widthh {
+        max-width: 90% !important;
       }
 }
 
@@ -74,4 +123,43 @@
       text-align: center;
       margin: 0 auto;
     }
+
+    .accordian {
+      max-width: 90% !important;
+    }
+
+    .box {
+      display: block; 
+      width: 100%; 
+      text-align: center !important;
+  }
+
+  .orderr {
+      order: 2; 
+  }
+
+  .order {
+      order: 1; 
+  }
+
+  .top {
+    margin-top: 30px !important;
+  }
+
+  .mob-img {
+    width: 60% !important;
+    height: auto !important;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+  }
+
+  .ord {
+    order: 2;
+    margin-top: -70px !important;
+  }
+
+  .orde {
+    order: 1;
+  }
+
 }
