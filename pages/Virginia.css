@@ -147,6 +147,22 @@
   .mt3 {
     margin-top: -30px !important;
   }
+
+  table {
+    width: 80%;
+    font-size: 0.6rem;
+  }
+
+  th,
+  td {
+    padding: 0.4rem;
+  }
+
+  .margin {
+    max-width: 90% !important;
+    width: 90% !important;
+    margin: 0 auto !important;
+  }
   
   }
   
